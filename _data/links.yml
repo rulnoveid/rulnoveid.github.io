@@ -3,5 +3,5 @@ list:
   url: "/about/"
 - title: "Blog"
   url: "https://www.inputekno.com/"
-- title: "contact"
+- title: "Contact"
   url: "mailto:info@inputekno.com"
