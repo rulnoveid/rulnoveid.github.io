@@ -503,8 +503,18 @@ html.is-offcanvas-active {
   border-radius: 0.5rem;
   padding: 1.75rem;
 }
+.s-me {
+  max-width: 600px;
+  height: auto;
+  background: #1c2733;
+  padding: 1.75rem;
+  border-radius: .5rem;
+}
 @media (width>=768px) {
   .jumbotron {
+    padding: 2rem;
+  }
+  .s-me {
     padding: 2rem;
   }
 }
