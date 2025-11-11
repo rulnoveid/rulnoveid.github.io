@@ -372,11 +372,11 @@ hr:not([class]) {
   --content-areas: "content sidebar";
   --content-columns: minmax(0, 1fr) 380px;
 }
-.nobel-template {
+.s-template {
   transition: transform var(--duration);
   min-height: 100dvh;
 }
-.nobel-template.is-active {
+.s-template.is-active {
   transform: translateX(var(--offcanvas-width));
 }
 .nobel-offcanvas {
