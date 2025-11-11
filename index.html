@@ -5,13 +5,13 @@
 layout: default
 ---
 <div class="s-template flex column relative">
-<main class="main flex-1 s-main ">
+<main class="main flex-1 s-main">
     <div class="main-content container">
-    <div class="section">
+    <div class="section s-me">
         <h1 class="fs-4 m:fs-2 fw-500 color-white">InpuTekno</h1>
         <h2 class="fs-3">CDN page for Blog</h2>
         <div class="links-wrapper">
-            <nav class="flex items-center justify-center wrap i-s g-1">
+            <nav class="flex items-center wrap i-s g-1">
                 {% for link in site.data.links.list%}
                 <a href="{{ link.url }}">{{ link.title }}</a>
                 {% endfor %}
