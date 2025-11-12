@@ -74,6 +74,7 @@
   --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   --font-roboto: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
   --bg-mask: #000000bf;
   --shadow-low: 0 1px 2px #0000000d;
   --shadow-medium: 0 1px 3px #00000059;
@@ -261,7 +262,7 @@ video {
   width: 100%;
 }
 body {
-  font-family: var(--font-roboto);
+  font-family: var(--font-poppins);
   --offcanvas-width: 286px;
   min-height: 100%;
   overflow-x: hidden;
@@ -2012,6 +2013,9 @@ body[style*="top"] font {
 }
 .ff-monospace {
   font-family: var(--font-monospace);
+}
+.ff-poppins {
+  font-family: var(--font-poppins);
 }
 .text-center {
   text-align: center;
